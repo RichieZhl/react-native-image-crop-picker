@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062A5EDFEDB0292DD78EFC1A205F6E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1984BE0E7756B6B41F43ECADD49659D5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281231276CFC697913208855928C2E8 /* ReplaceMe.m */; };
+		30E052450767B606BD4ECC992F691E9E /* react-native-image-crop-picker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1ECC28892780AC04662798389CFA /* react-native-image-crop-picker-dummy.m */; };
+		5F93F8B75E91E993C092A835F41926E1 /* Pods-react-native-image-crop-picker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FAC018CF13F1B056F064582E0C8DCE /* Pods-react-native-image-crop-picker_Tests-dummy.m */; };
+		6E973B1F5602155323FDC486195A0819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		842310DA8FCA9FC71A4B7C50D43EE07E /* react-native-image-crop-picker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAC64F216EA932D2A6CB125F910E3D8 /* react-native-image-crop-picker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945909CF3FFFBC2270AA09C41487F89F /* Pods-react-native-image-crop-picker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9204BE03A9CCA9C9B9481C02DA630B5 /* Pods-react-native-image-crop-picker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		973244AC09407629BC4F08860C61E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85E6EA54C5BA01A07E2229915E767D4;
+			remoteInfo = "react-native-image-crop-picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B710CFDB3F59139E95B5728081D65E6 /* react-native-image-crop-picker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-image-crop-picker-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75709D9F8C14BD3B825E2D608F446E90 /* Pods-react-native-image-crop-picker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-react-native-image-crop-picker_Tests.modulemap"; sourceTree = "<group>"; };
+		7A5436AA6822AD0E9B76C387DDB7A8C8 /* react-native-image-crop-picker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-image-crop-picker.xcconfig"; sourceTree = "<group>"; };
+		7D849806527D272592BCC1E861232A60 /* Pods-react-native-image-crop-picker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-react-native-image-crop-picker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8281231276CFC697913208855928C2E8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "react-native-image-crop-picker/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		908F1ECC28892780AC04662798389CFA /* react-native-image-crop-picker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-image-crop-picker-dummy.m"; sourceTree = "<group>"; };
+		92BEEF522F7C8E325B396090512135AA /* react-native-image-crop-picker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "react-native-image-crop-picker.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AE841D79C1D59B959820BB50B99D85B /* Pods-react-native-image-crop-picker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-react-native-image-crop-picker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD76072C5525CD4EA9AE0B882F2CF4AD /* Pods-react-native-image-crop-picker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-react-native-image-crop-picker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AE45C827F86020252685D5D004B6D793 /* Pods-react-native-image-crop-picker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-react-native-image-crop-picker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEAC64F216EA932D2A6CB125F910E3D8 /* react-native-image-crop-picker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-image-crop-picker-umbrella.h"; sourceTree = "<group>"; };
+		B7D51558C4605E3C204FB3FED5DCB819 /* Pods-react-native-image-crop-picker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-react-native-image-crop-picker_Tests-resources.sh"; sourceTree = "<group>"; };
+		B9204BE03A9CCA9C9B9481C02DA630B5 /* Pods-react-native-image-crop-picker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-react-native-image-crop-picker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B9D9291D64C913DC33CE0ABA26D406F0 /* Pods-react-native-image-crop-picker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-react-native-image-crop-picker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9EA2944A388F2FCE04B82C06C610FCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FAC018CF13F1B056F064582E0C8DCE /* Pods-react-native-image-crop-picker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-react-native-image-crop-picker_Tests-dummy.m"; sourceTree = "<group>"; };
+		BD028B75100BB9590715A25B0E00D29A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81E83115EDE5C50FD4B64FB5D9940F6 /* react_native_image_crop_picker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = react_native_image_crop_picker.framework; path = "react-native-image-crop-picker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10A2310BFE656E248722FE2C661278C /* Pods_react_native_image_crop_picker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_react_native_image_crop_picker_Tests.framework; path = "Pods-react-native-image-crop-picker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB681B14DF024CE73764F5CEF55B717F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E973B1F5602155323FDC486195A0819 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E361BF99D6B9C862F0DF693B67AE51B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062A5EDFEDB0292DD78EFC1A205F6E53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F13C034AB6A66B2A744EE894739812 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE0278ECF5491103F66AE0473232E9 /* Pods-react-native-image-crop-picker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF008435B94FA06F8338191B675EA4C4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D95F4DB1EDAB76CF0193375FA31085A4 /* Products */,
+				69F13C034AB6A66B2A744EE894739812 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91778A9AAF31670C8D478EF089A85786 /* react-native-image-crop-picker */ = {
+			isa = PBXGroup;
+			children = (
+				8281231276CFC697913208855928C2E8 /* ReplaceMe.m */,
+				9383E0AAAA7FD10C931B0DE5BCBF893F /* Support Files */,
+			);
+			name = "react-native-image-crop-picker";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9383E0AAAA7FD10C931B0DE5BCBF893F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD028B75100BB9590715A25B0E00D29A /* Info.plist */,
+				92BEEF522F7C8E325B396090512135AA /* react-native-image-crop-picker.modulemap */,
+				7A5436AA6822AD0E9B76C387DDB7A8C8 /* react-native-image-crop-picker.xcconfig */,
+				908F1ECC28892780AC04662798389CFA /* react-native-image-crop-picker-dummy.m */,
+				0B710CFDB3F59139E95B5728081D65E6 /* react-native-image-crop-picker-prefix.pch */,
+				AEAC64F216EA932D2A6CB125F910E3D8 /* react-native-image-crop-picker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/react-native-image-crop-picker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D95F4DB1EDAB76CF0193375FA31085A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10A2310BFE656E248722FE2C661278C /* Pods_react_native_image_crop_picker_Tests.framework */,
+				C81E83115EDE5C50FD4B64FB5D9940F6 /* react_native_image_crop_picker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDE0278ECF5491103F66AE0473232E9 /* Pods-react-native-image-crop-picker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA2944A388F2FCE04B82C06C610FCD /* Info.plist */,
+				75709D9F8C14BD3B825E2D608F446E90 /* Pods-react-native-image-crop-picker_Tests.modulemap */,
+				AE45C827F86020252685D5D004B6D793 /* Pods-react-native-image-crop-picker_Tests-acknowledgements.markdown */,
+				7D849806527D272592BCC1E861232A60 /* Pods-react-native-image-crop-picker_Tests-acknowledgements.plist */,
+				B9FAC018CF13F1B056F064582E0C8DCE /* Pods-react-native-image-crop-picker_Tests-dummy.m */,
+				AD76072C5525CD4EA9AE0B882F2CF4AD /* Pods-react-native-image-crop-picker_Tests-frameworks.sh */,
+				B7D51558C4605E3C204FB3FED5DCB819 /* Pods-react-native-image-crop-picker_Tests-resources.sh */,
+				B9204BE03A9CCA9C9B9481C02DA630B5 /* Pods-react-native-image-crop-picker_Tests-umbrella.h */,
+				B9D9291D64C913DC33CE0ABA26D406F0 /* Pods-react-native-image-crop-picker_Tests.debug.xcconfig */,
+				9AE841D79C1D59B959820BB50B99D85B /* Pods-react-native-image-crop-picker_Tests.release.xcconfig */,
+			);
+			name = "Pods-react-native-image-crop-picker_Tests";
+			path = "Target Support Files/Pods-react-native-image-crop-picker_Tests";
+			sourceTree = "<group>";
+		};
+		FF008435B94FA06F8338191B675EA4C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91778A9AAF31670C8D478EF089A85786 /* react-native-image-crop-picker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B6431A1D8D6805B7F4B28B1515D7D33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842310DA8FCA9FC71A4B7C50D43EE07E /* react-native-image-crop-picker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78D4072279785D191E9DF48A2C7E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945909CF3FFFBC2270AA09C41487F89F /* Pods-react-native-image-crop-picker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A85E6EA54C5BA01A07E2229915E767D4 /* react-native-image-crop-picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7F6D44B7C6286977914DE2C538D03C /* Build configuration list for PBXNativeTarget "react-native-image-crop-picker" */;
+			buildPhases = (
+				3D7F4042169444E80AA0C0574FB05EE5 /* Sources */,
+				E361BF99D6B9C862F0DF693B67AE51B4 /* Frameworks */,
+				1B6431A1D8D6805B7F4B28B1515D7D33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-image-crop-picker";
+			productName = "react-native-image-crop-picker";
+			productReference = C81E83115EDE5C50FD4B64FB5D9940F6 /* react_native_image_crop_picker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDEBB82622EB6F3AA9DB44123D342E41 /* Pods-react-native-image-crop-picker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC009F10C7AE40B52F5FFBDAE23C97D /* Build configuration list for PBXNativeTarget "Pods-react-native-image-crop-picker_Tests" */;
+			buildPhases = (
+				53CF0E7B0CA5BA370F4B707E1840ED52 /* Sources */,
+				CB681B14DF024CE73764F5CEF55B717F /* Frameworks */,
+				1C78D4072279785D191E9DF48A2C7E51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496A3B1A8CC70E843E260757E518F70B /* PBXTargetDependency */,
+			);
+			name = "Pods-react-native-image-crop-picker_Tests";
+			productName = "Pods-react-native-image-crop-picker_Tests";
+			productReference = D10A2310BFE656E248722FE2C661278C /* Pods_react_native_image_crop_picker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D95F4DB1EDAB76CF0193375FA31085A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDEBB82622EB6F3AA9DB44123D342E41 /* Pods-react-native-image-crop-picker_Tests */,
+				A85E6EA54C5BA01A07E2229915E767D4 /* react-native-image-crop-picker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7F4042169444E80AA0C0574FB05EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E052450767B606BD4ECC992F691E9E /* react-native-image-crop-picker-dummy.m in Sources */,
+				1984BE0E7756B6B41F43ECADD49659D5 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CF0E7B0CA5BA370F4B707E1840ED52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F93F8B75E91E993C092A835F41926E1 /* Pods-react-native-image-crop-picker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496A3B1A8CC70E843E260757E518F70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "react-native-image-crop-picker";
+			target = A85E6EA54C5BA01A07E2229915E767D4 /* react-native-image-crop-picker */;
+			targetProxy = 973244AC09407629BC4F08860C61E1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EA2DEEB908D806118AB0A419B8CB5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE841D79C1D59B959820BB50B99D85B /* Pods-react-native-image-crop-picker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-react-native-image-crop-picker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-react-native-image-crop-picker_Tests/Pods-react-native-image-crop-picker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_react_native_image_crop_picker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		762BC6035CA7A3CAD2DCFC503B19E6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D9291D64C913DC33CE0ABA26D406F0 /* Pods-react-native-image-crop-picker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-react-native-image-crop-picker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-react-native-image-crop-picker_Tests/Pods-react-native-image-crop-picker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_react_native_image_crop_picker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C787F8EECEE59A31618972A10F05815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5436AA6822AD0E9B76C387DDB7A8C8 /* react-native-image-crop-picker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/react-native-image-crop-picker/react-native-image-crop-picker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/react-native-image-crop-picker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/react-native-image-crop-picker/react-native-image-crop-picker.modulemap";
+				PRODUCT_NAME = react_native_image_crop_picker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC8AB0560AC12CED03FE02E8CBABB226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5436AA6822AD0E9B76C387DDB7A8C8 /* react-native-image-crop-picker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/react-native-image-crop-picker/react-native-image-crop-picker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/react-native-image-crop-picker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/react-native-image-crop-picker/react-native-image-crop-picker.modulemap";
+				PRODUCT_NAME = react_native_image_crop_picker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7F6D44B7C6286977914DE2C538D03C /* Build configuration list for PBXNativeTarget "react-native-image-crop-picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8AB0560AC12CED03FE02E8CBABB226 /* Debug */,
+				9C787F8EECEE59A31618972A10F05815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC009F10C7AE40B52F5FFBDAE23C97D /* Build configuration list for PBXNativeTarget "Pods-react-native-image-crop-picker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762BC6035CA7A3CAD2DCFC503B19E6FB /* Debug */,
+				1EA2DEEB908D806118AB0A419B8CB5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

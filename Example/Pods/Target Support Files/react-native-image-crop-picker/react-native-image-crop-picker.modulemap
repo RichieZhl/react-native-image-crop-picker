@@ -1,0 +1,6 @@
+framework module react_native_image_crop_picker {
+  umbrella header "react-native-image-crop-picker-umbrella.h"
+
+  export *
+  module * { export * }
+}
