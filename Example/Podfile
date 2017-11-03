@@ -1,0 +1,6 @@
+use_frameworks!
+target 'react-native-image-crop-picker_Tests' do
+  pod 'react-native-image-crop-picker', :path => '../'
+  
+  
+end
